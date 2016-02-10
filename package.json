@@ -4,7 +4,9 @@
   "description": "application using react components",
   "main": "inddex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --history-api-fallback --devtool eval-source-map --hot --inline --progress --colors",
+    "build": "npm run clean && webpack --progress --colors"
   },
   "repository": {
     "type": "git",
