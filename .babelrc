@@ -1,0 +1,5 @@
+// https://babeljs.io/docs/usage/babelrc/
+
+{
+  "presets": ["es2015","react"]
+}
